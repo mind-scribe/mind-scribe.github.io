@@ -32,3 +32,8 @@ nav ul {
 nav li {
 	padding:5px 15px; /* padding between list items */
 }
+
+hr {
+	margin:auto;
+	width:50%
+}
