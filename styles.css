@@ -1,3 +1,4 @@
+/* text formatting */
 body {
 	background-color:dimgray;
 	text-align:center;
@@ -8,4 +9,16 @@ h1 {
 }
 p {
 	color:ghostwhite
+}
+
+/* navigation styline */
+nav ul {
+	list-style:none; /* remove bullets */
+	margin:0;
+	padding:0;
+	display:flex; /* horizontal layout */
+	justify-content:center; /* center nav layout */
+}
+nav li {
+	padding:5px 15px; /* padding between list items */
 }
