@@ -12,15 +12,20 @@ p {
 }
 
 .header {
-	display:flex;
+	/*display:flex;
 	justify-content:flex-start;
 	align-items:center;
-	margin:0 auto;
+	margin:0 auto;*/
+	display:grid;
+	grid-template-columns:auto auto;
+	grid-gap:0;
+	align-items:center;
 }
 
 .logo {
 	width:30px;
 	height:30px;
+	justify-self:end;
 }
 /* navigation styling */
 .nav a {
@@ -37,7 +42,9 @@ p {
 	list-style:none; /* remove bullets */
 	margin:0;
 	padding:0;
+	grid-column:2;
 	display:flex; /* horizontal layout */
+	justify-self:start;
 }
 .nav li {
 	padding:5px 10px; /* padding between list items */
