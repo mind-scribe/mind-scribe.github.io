@@ -12,6 +12,16 @@ p {
 }
 
 /* navigation styline */
+nav a {
+	text-decoration:none;
+	color:gold
+}
+nav a:visited {
+	color:gold
+}
+nav a:hover {
+	color:ghostwhite
+}
 nav ul {
 	list-style:none; /* remove bullets */
 	margin:0;
