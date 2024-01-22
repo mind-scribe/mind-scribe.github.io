@@ -11,24 +11,46 @@ p {
 	color:ghostwhite
 }
 
-/* navigation styline */
-nav a {
+.header {
+	/*display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	margin:0 auto;*/
+	display:grid;
+	grid-template-columns:auto auto;
+	grid-gap:0;
+	align-items:center;
+}
+
+.logo {
+	width:30px;
+	height:30px;
+	justify-self:end;
+}
+/* navigation styling */
+.nav a {
 	text-decoration:none;
 	color:gold
 }
-nav a:visited {
+.nav a:visited {
 	color:gold
 }
-nav a:hover {
+.nav a:hover {
 	color:ghostwhite
 }
-nav ul {
+.nav ul {
 	list-style:none; /* remove bullets */
 	margin:0;
 	padding:0;
+	grid-column:2;
 	display:flex; /* horizontal layout */
-	justify-content:center; /* center nav layout */
+	justify-self:start;
 }
-nav li {
-	padding:5px 15px; /* padding between list items */
+.nav li {
+	padding:5px 10px; /* padding between list items */
+}
+
+hr {
+	margin:auto;
+	width:50%
 }
