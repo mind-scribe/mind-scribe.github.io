@@ -3,21 +3,17 @@ body {
 	background-color:dimgray;
 	text-align:center;
 	font-family:tahoma;
+	color:ghostwhite;
 }
 h1 {
 	color:gold;
 	font-size:2em
 }
 h2 {
-	color:lightgray;
 	font-size:1.75em;
 }
 h4 {
-	color:lightgray;
 	font-size:1em;
-}
-p {
-	color:ghostwhite
 }
 
 .header {
@@ -62,4 +58,10 @@ p {
 hr {
 	margin:auto;
 	width:50%
+}
+p.detail {
+	color:gold;
+}
+span.name {
+	color:lightgray;
 }
