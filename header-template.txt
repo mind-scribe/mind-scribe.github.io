@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <header class="header">
-	<title>Mind Scribe | XXXXX</title>
+	<title>Mind Scribe | Home</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="icon" type="image/x-icon" href="images/ms_logo.png">
 	<img src="images/ms_logo.png" alt="Mind Scribe Logo" class="logo">
@@ -9,12 +9,10 @@
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="blog.html">Blog</a></li>
-			<li><a href="stats.html">Stats</a></li>
+			<!--<li><a href="stats.html">Stats</a></li>-->
+			<li><a href="ai_images.html">AI Images</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
 </header>
-<body>
-</body>
-</html>
