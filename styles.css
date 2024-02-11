@@ -7,6 +7,10 @@ body {
 h1 {
 	color:gold
 }
+h2 {
+	color:lightgray;
+	font-family:tahoma
+}
 p {
 	color:ghostwhite
 }
