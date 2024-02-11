@@ -5,10 +5,12 @@ body {
 	font-family:Georgia;
 }
 h1 {
-	color:gold
+	color:gold;
+	font-size:2em
 }
 h2 {
 	color:lightgray;
+	font-size:1.75em;
 	font-family:tahoma
 }
 p {
