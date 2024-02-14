@@ -17,6 +17,13 @@ h4 {
 	font-size:1em;
 }
 
+a:link {
+	color:gold;
+}
+a:hover {
+	color:ghostwhite;
+}
+
 .header {
 	/*display:flex;
 	justify-content:flex-start;
