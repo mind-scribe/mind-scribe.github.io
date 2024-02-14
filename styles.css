@@ -17,8 +17,9 @@ h4 {
 	font-size:1em;
 }
 
-a:link {
+a {
 	color:gold;
+	text-decoration:none;
 }
 a:hover {
 	color:ghostwhite;
