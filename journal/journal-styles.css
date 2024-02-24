@@ -1,21 +1,24 @@
 /* text formatting */
 body {
 	background-color:dimgray;
-	text-align:center;
-	font-family:georgia;
+	text-align:left;
+	font-family:timesnewroman;
 	color:lightgray;
 }
 h1 {
 	color:gold;
 	font-size:2em;
 	text-shadow: 2px 2px 5px black;
+	text-align:center;
 }
 h2 {
 	color:lightgray;
 	font-size:1.75em;
+	text-align:center;
 }
 h4 {
 	font-size:1em;
+	text-align:center;
 }
 
 a {
