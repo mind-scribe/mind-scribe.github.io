@@ -2,12 +2,13 @@
 body {
 	background-color:dimgray;
 	text-align:center;
-	font-family:tahoma;
+	font-family:georgia;
 	color:lightgray;
 }
 h1 {
 	color:gold;
-	font-size:2em
+	font-size:2em;
+	text-shadow: 2px 2px 5px black;
 }
 h2 {
 	color:lightgray;
